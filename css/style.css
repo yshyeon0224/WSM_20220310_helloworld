@@ -12,3 +12,12 @@ li {
 .rapper {
     color: darkblue;
 }
+li:nth-child(3){  /*1부터 시작*/
+    text-decoration: underline;
+}
+h2+h3 { /*h2 형제중 첫번째 h3*/
+    background-color: aquamarine;
+}
+h2~h3 { /*h2 형제 중 여러 h3*/
+    font-size: 40px;
+}
