@@ -1,0 +1,14 @@
+/* 우선 순위 : Tag < class < id <<< !important */
+/* 우선 순위 : 같은 급일 때는 위<아래 쓴 코드 */
+li {
+    color: blueviolet;
+}
+.korea {
+    color: cadetblue !important;
+}
+#leader {
+    color: aqua;
+}
+.rapper {
+    color: darkblue;
+}
