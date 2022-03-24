@@ -28,3 +28,6 @@ h2 ~ h3 {
   /*h2 형제 중 여러 h3*/
   font-size: 40px;
 }
+body > ul > ul:nth-child(2) {
+  background-color: hotpink;
+}
