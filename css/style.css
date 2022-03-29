@@ -1,5 +1,5 @@
 /*우선순위 : 포괄 < 구체*/
-/* 우선 순위 : Tag < class < id <<< !important */
+/* 우선 순위 : Tag < class < #id <<< !important */
 /* 우선 순위 : 같은 급일 때는 위<아래 쓴 코드 */
 body > li {
   /* > : 자식, 띄어쓰기 : 자손 */
@@ -16,8 +16,10 @@ h6 {
 .rapper {
   color: darkblue;
 }
-li:nth-child(3) {
+ul > ul > li:nth-child(3) {
   /*1부터 시작*/
+  /* first-child 첫째 자식
+  last-child 막내 자식 */
   text-decoration: underline;
 }
 h2 + h3 {
