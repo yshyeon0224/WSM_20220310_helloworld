@@ -5,7 +5,7 @@
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* 크기 계산의 기준을 contents -> border */
   margin: 0;
   padding: 0;
 }
