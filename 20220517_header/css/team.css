@@ -1,0 +1,7 @@
+.nav-list li:nth-child(3) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  flex: 0 0 200px;
+  /* border: 선두께 선모양(solid) 선색깔; */
+}
