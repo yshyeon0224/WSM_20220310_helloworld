@@ -1,0 +1,27 @@
+body {
+  background-color: #81bef7;
+  font-size: 4rem;
+}
+/* < 1024 : tablet */
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: darkseagreen;
+    font-size: 2rem;
+  }
+}
+/* < 420 : mobile */
+@media screen and (max-width: 420px) {
+  body {
+    background-color: lightcoral;
+    font-size: 1rem;
+  }
+}
+
+/*------------------------------------------*/
+/* >= 420 : tablet */
+@media screen and (min-width: 420px) {
+}
+
+/* >= 1024 : mobile */
+@media screen and (min-width: 1024px) {
+}
