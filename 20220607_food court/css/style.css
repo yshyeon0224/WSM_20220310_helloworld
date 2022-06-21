@@ -67,6 +67,10 @@ img {
 }
 header{
     background-color: var(--first-color);
+    position:fixed;  /* 스크롤해도 헤더 위치가 바뀌지 않음 */
+    left:0;
+    right:0;
+    top:0;
 }
 nav {
     height: 44px;
@@ -87,6 +91,11 @@ nav i {
 }
 .nav-link {
     color: #fff;
+}
+
+/* HOME */
+main {
+    margin-top: 88px;
 }
 
 /* breakprints */
