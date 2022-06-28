@@ -110,19 +110,19 @@ h3 {
     border-radius: 1rem;
     flex: 1 0 240px;
     max-width: 300px; /* 최대 너비: 300px */
+    transition: .4s;
 }
+.now,
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, .25);
-    transition: .45s;
 }
+.now .card-time,
 .card:hover .card-time {
     color: var(--second-color); /* 호버 적용된 머시기에 카드타임 */
 }
-.card:hover .card-menu{
-    color: aqua;
-}
+
 .card-image {
-    background-image: url("../img/plate_crop.png") center center; /* 가운데를 중심으로 확대 축소 . 은 자신, ..은 부모 */
+    background: url("../img/plate_crop.png") center center; /* 가운데를 중심으로 확대 축소 . 은 자신, ..은 부모 */
     background-size: cover; /* 배경에 이미지 꽉 채우기 */
     height: 0;
     padding-bottom: 66.6666667%; /* 사진의 비율을 240X160 으로 맞추기 */
